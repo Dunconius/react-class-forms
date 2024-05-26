@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class SocialCardFrom extends React.Component{
+export default class SocialCardForm extends React.Component{
     constructor(){
         super();
 
@@ -21,6 +21,7 @@ export default class SocialCardFrom extends React.Component{
                     value={this.state.content}
                     onChange={(event) => {this.setState({content: event.target.value})}}
                 />
+                <button onClick={this.props.toggleEditMode}>Toggle Edit Mode</button>
             </section>
         )
     }

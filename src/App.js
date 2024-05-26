@@ -1,11 +1,12 @@
 
 import './App.css';
-import SocialCardFrom from './components/SocialCardForm';
+import SocialCardForm from './components/SocialCardForm';
+import SocialCardParent from './components/SocialCardParent';
 
 function App() {
   return (
     <div className="App">
-      <SocialCardFrom />
+      <SocialCardParent />
     </div>
   );
 }
